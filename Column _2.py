@@ -13,4 +13,3 @@ df.select(col('prop.hair')).show()
 
 # accessing all columns
 df.select(col('prop.*')).show()
-df.show()
