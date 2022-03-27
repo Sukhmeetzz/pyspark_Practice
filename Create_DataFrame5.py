@@ -23,4 +23,4 @@ departmentWithEmployees4 = Row(department=department4, employees=[employee2, emp
 departmentsWithEmployees_Seq = [departmentWithEmployees1, departmentWithEmployees2]
 dframe = spark.createDataFrame(departmentsWithEmployees_Seq)
 
-dframe.show()
+dframe.show(truncate=False)
